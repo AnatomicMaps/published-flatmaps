@@ -1,0 +1,18 @@
+[submodule "sources/mouse"]
+	path = sources/mouse
+	url = git@github.com:AnatomicMaps/mouse-flatmap.git
+[submodule "sources/cat"]
+	path = sources/cat
+	url = git@github.com:AnatomicMaps/cat-flatmap.git
+[submodule "sources/pig"]
+	path = sources/pig
+	url = git@github.com:AnatomicMaps/pig-flatmap.git
+[submodule "sources/human"]
+	path = sources/human
+	url = git@github.com:AnatomicMaps/human-flatmap.git
+[submodule "sources/rat"]
+	path = sources/rat
+	url = git@github.com:AnatomicMaps/rat-flatmap.git
+[submodule "mapmaker"]
+	path = mapmaker
+	url = git@github.com:AnatomicMaps/flatmap-maker.git
