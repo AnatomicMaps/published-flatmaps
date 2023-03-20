@@ -2,6 +2,7 @@
 
 rm ./logs/*.log
 
+./publish.sh functional-connectivity --clean-connectivity
 ./publish.sh pig --background-tiles
 ./publish.sh cat --background-tiles
 ./publish.sh mouse --background-tiles
