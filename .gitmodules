@@ -16,3 +16,6 @@
 [submodule "mapmaker"]
 	path = mapmaker
 	url = git@github.com:AnatomicMaps/flatmap-maker.git
+[submodule "sources/functional-connectivity"]
+	path = sources/functional-connectivity
+	url = git@github.com:AnatomicMaps/functional-connectivity.git

@@ -1,7 +1,11 @@
 #!/bin/sh
 
-cd mapmaker
+rm ./logs/*.log
 
-poetry run python runmaker.py --debug \
-	--output ../flatmaps --background-tiles \
-    --clean --source ../sources/$1/manifest.json --log ../logs/$1.log "${@:2}"
+./publish_map.sh functional-connectivity --clean-connectivity
+./publish_map.sh pig --background-tiles
+./publish_map.sh cat --background-tiles
+./publish_map.sh mouse --background-tiles
+./publish_map.sh rat --background-tiles
+./publish_human.sh female --background-tiles
+./publish_human.sh male --background-tiles
