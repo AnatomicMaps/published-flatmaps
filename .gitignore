@@ -2,3 +2,6 @@
 flatmaps/
 logs/
 releases/
+datasets/
+*.gz
+*.log
